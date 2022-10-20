@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/silentwolfe/huddle-landing-page-with-single-introductory-section.git)
-- Live Site URL: [)
+- Live Site URL: (https://silentwolfe.github.io/huddle-landing-page-with-single-introductory-section/)
 
 ## My process
 I must say this was surprisingly hard for me but the good part of it was that it opened my eyes to a whole load of different things i didnt know about.
