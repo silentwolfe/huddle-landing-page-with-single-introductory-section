@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+background-color:  hsl(257, 40%, 49%);
+background-image: url(./images/bg-desktop.svg);
+background-size: cover;
+background-repeat: no-repeat;
+display: grid;
+place-content: center;
+color: white;
+
+}
+
+.mage {
+width: 200px;
+margin-top: 40px;
+margin-left: 45px;
+}
+
+
+#second-img {
+  margin-top: 10px;
+  margin-left: 45px;
+}
+
+
+main {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin-top: 3rem;
+}
+
+.descrpt {
+  width: 539px;
+  padding: 2rem;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  line-height: 45px;
+  margin-bottom: 20px;
+  margin-top: 35px;
+  font-family: 'Poppins', sans-serif;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 7px #1a1515;
+  /* transition: 1s; */
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+
+.icon {
+  width: 35px;
+  float:right;
+  border: 2px solid white;
+  /* padding: 6px; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.twitter {
+   margin-left: 10px;
+   margin-right: 10px;
+   background-image: white;
+}
+
+.soc-icon svg{
+  padding: 5px;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid white; */
+  fill: white;
+  /* border-radius: 50%; */
+   position:relative;
+   right: 60px;
+   bottom: 50px;
+   cursor: pointer;
+}
+
+.soc-icon svg:hover {
+  fill: hsl(300, 69%, 71%);
+}
+
+
+
+@media (max-width: 650px) {
+  body {
+    background-image: url(./images/bg-mobile.svg);
+  }
+
+  #second-img {
+    width: 350px;
+  }
+
+  main {
+    display: block;
+    align-items: center;
+  }
+  .descrpt {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+}
+
+@media (max-width: 426px) {
+  #secon-img {
+    width: 280px;
+  }
+  body {
+    background-size: contain;
+  }
+  p {
+    align-items: right;
+    place-content: right;
+  }
+}
