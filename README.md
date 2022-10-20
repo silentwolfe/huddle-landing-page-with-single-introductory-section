@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ()
+- Solution URL: (https://github.com/silentwolfe/huddle-landing-page-with-single-introductory-section.git)
 - Live Site URL: [)
 
 ## My process
@@ -53,7 +53,7 @@ I am going to fully work on my designs reponsiveness and also have a proper unde
 
 ## Author
 
-- Website - [silentwolfe](https://www.your-site.com)
+- Website - [silentwolfe](https://github.com/silentwolfe/huddle-landing-page-with-single-introductory-section.git)
 - Frontend Mentor - [@problmsolvr](https://www.frontendmentor.io/profile/silentwolfe)
 
 ## Acknowledgments
